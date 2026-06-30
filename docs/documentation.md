@@ -1,10 +1,4 @@
----
-title: API documentation
----
-
 # Change-point detection
-
-[Home](./) | [API documentation](documentation.html) | [Examples](examples.html)
 
 ## `scan_cpd(...)`
 

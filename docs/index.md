@@ -1,12 +1,14 @@
----
-title: Home
----
-
 # scan-py: Sequentially Detecting Change-points via Adaptive Nonparametric Inference
 
-[Home](./) | [API documentation](documentation.html) | [Examples](examples.html)
-
 `scan-py` provides tools for detecting change points general distributional shifts in long univariate time series using Integral Probability Metrics (IPMs). It is aimed at research workflows where users need to simulate time series, detect changes across multiple window sizes, localize change-point positions, evaluate accuracy, and visualize diagnostics. The Python interface is backed by a Rust/PyO3 computation core.
+
+```{toctree}
+:maxdepth: 2
+:caption: Contents
+
+documentation
+examples
+```
 
 ## Installation
 
@@ -193,16 +195,6 @@ print(local_cp)
 ```
 Save these plots to `docs/plots/distribution_change_time_series.png` and `docs/plots/distribution_change_swal_curve.png` if you want to include the generated images in the published site.
 
-
-## Documentation
-
-More detailed documentation is available in the `docs/` folder. The README provides a short overview and a minimal example, while the documentation files give more complete guidance on installation, usage, outputs, and development.
-
-- [Home](./): overview of the package and where to start.
-- [API documentation](documentation.html): a short end-to-end example showing how to simulate data, run `scan_cpd`, and inspect the detected change points.
-- [Examples](examples.html): additional examples for different types of change-point detection workflows.
-
-Add a runnable tutorial notebook to this repository if you want to link it from the published site.
 
 ## Citation
 
