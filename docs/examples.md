@@ -1,4 +1,10 @@
+---
+title: Examples
+---
+
 # Examples
+
+[Home](./) | [API documentation](documentation.html) | [Examples](examples.html)
 
 ## Detecting Changes
 
